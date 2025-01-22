@@ -1,0 +1,64 @@
+body {
+  background-color: #0b0c10;
+  color: #c5c6c7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url('https://www.nasa.gov/sites/default/files/thumbnails/image/nasa-logo-web-rgb.png'); /* Space-themed background image */
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.menu {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1em;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu li a {
+  color: #66fcf1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2em;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.photos-template, .slideshow, .image-row {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 8px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.image-row div {
+  flex: 1 0 18%; /* Adjust percentage to get 5-6 images in one row */
+  background-color: #1f2833;
+  padding: 1em;
+  border-radius: 8px;
+}
